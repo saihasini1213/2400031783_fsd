@@ -1,0 +1,23 @@
+.articles {
+  padding: 30px;
+  text-align: center;
+  color: #002868;
+}
+
+.articles ul {
+  list-style: none;
+  padding: 0;
+}
+
+.articles li {
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+.articles-page { min-height: calc(100vh - 110px); padding: 48px 24px; text-align: center; }
+.articles-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 24px; }
+.article-card { background: #fff; padding: 18px; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+.article-card h3 { color: #0b3d02; margin-bottom: 8px; }

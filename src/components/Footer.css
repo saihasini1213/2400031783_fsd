@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+}
+
+/* Prevent footer text from touching the sides */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Optional hover animation for a smooth feel */
+.footer:hover {
+  background-color: #1565c0;
+  transition: background-color 0.3s ease-in-out;
+}

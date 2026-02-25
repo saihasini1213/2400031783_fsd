@@ -1,0 +1,17 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;
+  background: linear-gradient(to bottom, orange, white, green);
+  background-size: cover;
+  padding: 40px;
+}
+/* Tri-color background for content area */
+.page-wrapper {
+  background: linear-gradient(180deg, #ffb347 0%, #ffffff 50%, #97d6a5 100%);
+  min-height: calc(100vh - 120px); /* accounts for navbar/footer height */
+}
